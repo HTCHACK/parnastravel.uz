@@ -1,0 +1,329 @@
+body,
+.slick-slider .slick-slide
+{
+    direction: rtl;
+}
+
+.slick-slider
+{
+    direction: ltr;
+}
+
+.thumb,
+figure,
+.mg_logo,
+.mg_social,
+.room-feature,
+.mg_social li,
+.mg_blog_meta a,
+.blog_title a,
+.mg_search_btn,
+.mg_navigation,
+.blog-meta-list,
+.mg_navigation li,
+.mg_countdown2 li,
+.blog-meta-list li,
+.mg_hotel_search li,
+.mg_bottom_bar .text,
+.login1 .nav-tabs li,
+.mg_comment_dec h6 a,
+.mg_destination_hd h5,
+.widget_flicker ul li,
+.widget_archives ul li,
+.widget_archives ul li a,
+.mg_comment_dec h6 > span,
+.mg_destination_review > p,
+.input-container label .checkbox, .input-container label .radio,
+.mg_destination_review .rating_down,
+.mg_sub_banner .breadcrumb > li + li::before,
+body [class*="col-"]
+{
+    float: right;
+}
+.pull-right {
+    float: left !important;
+}
+
+
+
+.mg_nav,
+.no_hotel,
+.mg_login,
+.mg_login_btn,
+.input-container a,
+.recent_post span,
+.mg_destination_review,
+.mg_contact_form .mg_btn1,
+.mg_comment_form .mg_btn1,
+.mg_bottom_bar .mg_input_1,
+.mg-accordion .accordion a,
+.mg_blog_medium .mg_readmore,
+#reviews .mg_comment_dec .rating_down
+{
+    float: left;
+}
+.pull-left {
+    float: right !important;
+}
+
+
+
+.widget-title,
+.room-feature li span,
+.mg_input_1 .rq-check-inout-single-wrapper, .mg_input_1 textarea, .mg_selectric, .mg_input_1 .time_picker .timepicker, .mg_input_1 input[type="text"]
+{
+    text-align: right;
+}
+.mg_hotel_hd1.text-left {
+    text-align: right !important;
+}
+
+footer .widget_search p
+{
+    text-align: left;
+}
+
+
+
+
+.mg_countdown2 li{
+    margin-right:0;
+    margin-left: 20px;  
+}
+.mg_blog_meta a i{
+    margin: 0 0 0 10px;
+}
+.mg_blog_meta a{
+    margin: 0 15px 0 0;
+}
+blockquote p{
+    text-align: center;
+}
+blockquote p::after{
+    left: -29px;
+    right: auto;
+}
+blockquote p::before{
+    right: -29px;
+    left: auto;
+}
+.mg_social li.social_title {
+    margin-right: 0px;
+    margin-left: 10px;
+}
+.mg_comment_dec .mg_btn1{
+    right: auto;
+    left: 20px;
+}
+.mg_comment_wrap .children{
+    padding-left: 0;
+    padding-right: 80px;
+}
+.mg_comment_wrap .children::before{
+    left: auto;
+    right: 40px;
+}
+.mg_comment_wrap .children .mg_comment_dec::before{
+    left: auto;
+    right: -40px;
+}
+.mg_date{
+    left: auto;
+    right: 0;
+}
+.dialog-footer a i{
+    margin: 0 10px 0 0;
+}
+.radio-value{
+    margin-right:0;
+    margin-left: 10px; 
+}
+.login1 .mg_input_1 i{
+    left: 15px;
+    right: auto;
+}
+.mg_btn1 i {
+    margin: 0 0 0 15px;
+}
+.mg_input_1 .time_picker .timepicker, .mg_input_1 .rq-check-inout-single-wrapper, .mg_selectric {
+    background-position: left 15px center;
+}
+.mg_destination_review .rating_down {
+    margin-left: 0;
+    margin-right: 15px;
+}
+.view_btn:hover {
+    box-shadow: -80px 12px 0px 10px #fff inset;
+}
+.blog-meta-list li a i {
+    margin-left: 10px;
+    margin-right: 0px;
+}
+.blog-meta-list li{
+    margin: 0 0 0 25px;
+}
+.blog-meta-list li:first-child{
+    margin-right: 0; 
+}
+.mg_bottom_bar .text {
+    padding-left: 50px;
+    padding-right: 0px;
+}
+.mg_input_1 .search_icon{
+    right: auto;
+    left: 0;
+}
+.mg_input_1 .search_icon:before{
+    margin: -10px 0 0 0;
+    -ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=0,mirror=1)";-webkit-transform:scale(-1,1);-ms-transform:scale(-1,1);transform:scale(-1,1)
+}
+.widget-title::before{
+    left: auto;
+    right: 0;
+}
+.widget_flicker ul {
+    margin: 0 -10px 0 0px;
+}
+.widget_flicker ul li{
+    margin-left: 0;
+    margin-right:10px; 
+}
+footer .widget_search p input[type="button"]:hover {
+    box-shadow: -70px 22px 0 10px #fff inset;
+}
+.widget_archives ul li{
+    padding-left:0;
+    padding-right: 15px; 
+}
+.mg_rss_list li:before,
+.widget_archives ul li:before{
+    content: "\f104";
+    left:auto;
+    right: 0;
+    float: right;
+}
+.mg_rss_list li:before{
+    margin-left: 10px;
+    margin-top:3px;
+    margin-right: 0px;
+}
+.mg_rss_list li:hover,
+.widget_archives ul li:hover {
+    padding-left: 0px;
+    padding-right: 20px;
+}
+.mg_rss_list li:hover:before,
+.widget_archives ul li:hover::before {
+    left: auto;
+    right: 5px;
+}
+.mg_contact i {
+    margin-left: 15px;
+    margin-right: 0px;
+}
+.mg_social li{
+    margin-right: 0px;
+    margin-left: 5px;
+}
+.mg_login a {
+    margin-right: 30px;
+    margin-left: 0px;
+}
+.mg_navigation li{
+    margin-left: 30px;
+    margin-right: 0px;
+}
+.mg_navigation > li:last-child{
+    margin-left: 0;
+}
+.mg_navigation li .children{
+    left: auto;
+    right: 0;
+}
+.mg_navigation li .children li{
+    margin: 0;
+}
+.room-feature{
+    padding-left: 50px;
+    padding-right: 0;
+}
+.recent_post figure {
+    margin: 0 0 0 15px;
+}
+.mg_comment_dec figure{
+    margin: 0 0 0 15px;
+}
+.mg_comment_dec h6 > span{
+    margin: 0 15px 0 0;
+}
+.accordion-content figure{
+    margin: 0 0 0 25px;
+}
+.benifits-list li::before{
+    margin: 0 2px 0 15px;
+}
+/*
+=================================================
+                UP FROM 1200PX
+=================================================
+*/ 
+@media (min-width: 1200px) and (max-width: 1366px) {
+     .mg_header_1 .mg_navigation li {
+        margin: 0 0px 0 15px;
+    }
+}
+/*
+=================================================
+            FROM 992PX TO 1199PX
+=================================================
+*/ 
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+/*
+=================================================
+            FROM 0PX TO 979PX
+=================================================
+*/ 
+@media (max-width: 991px) {
+
+}
+
+/*
+=================================================
+            FROM 768PX TO 979PX
+=================================================
+*/
+
+@media (min-width: 768px) and (max-width: 979px) {
+    
+  
+}
+/*
+=================================================
+            FROM 0PX TO 767PX
+=================================================
+*/
+@media (max-width: 767px) {
+
+}
+/*
+=================================================
+            FROM 0PX TO 0PX
+=================================================
+*/
+@media (min-width: 360px) and (max-width: 640px) {
+    
+  
+}
+/*
+=================================================
+            FROM 0PX TO 0PX
+=================================================
+*/
+@media (max-width: 480px) {
+  
+}
+@media (max-width: 320px){
+    
+}
